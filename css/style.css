@@ -1,0 +1,188 @@
+body {
+     font-family: 'Montserrat', sans-serif;
+}
+
+.bg-danger {
+     background-color: #f53756!important;
+}
+.bg-success {
+     background-color: #4cb8b3!important;
+}
+.bg-warning {
+     background-color: #fef46d!important;
+}
+.bg-secondary {
+     background-color: #752f97!important;
+}
+
+/* navegacion-principal */ 
+
+.fixed-top {
+     transition: all .5s ease;
+}
+
+.fixed-top.bg-success {
+     -webkit-box-shadow: 0px 6px 32px -5px rgba(0,0,0,0.74);
+     -moz-box-shadow: 0px 6px 32px -5px rgba(0,0,0,0.74);
+     box-shadow: 0px 6px 32px -5px rgba(0,0,0,0.74);
+}
+
+.navbar-brand {
+     font-size: 1.8rem;
+     font-weight: 400;
+}
+
+.navbar-brand span {
+     font-weight: 700;
+}
+
+a.navbar-brand.text-light:hover {
+     color: white!important;
+}
+
+li.nav-item a.nav-link {
+     text-decoration: none;
+     color: white!important;
+     
+}
+
+li.nav-item a.nav-link.active {
+     background-color: #752f97!important;
+}
+
+/* video-header */ 
+.embed-responsive {
+     position: relative;
+     background-image: url(../img/banda.jpg);
+     height: 50rem;
+     background-position: center center;
+}
+
+@media (min-width: 992px) {
+     .embed-responsive {
+          background-image: unset;
+          height: auto;
+     }
+}
+
+.embed-responsive::after {
+     content: '';
+     display: block;
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     top: 0;
+     background-color: rgba(92, 10, 44, 0.4);
+}
+
+.informacion-concierto {
+     position: absolute;
+     top: 20%;
+     z-index: 100;
+}
+
+@media (min-width: 992px) {
+     .informacion-concierto {
+          top: 35%;
+     }
+}
+
+.informacion-concierto h1 {
+     font-size: 3rem;
+     line-height: 6rem;
+}
+
+@media (min-width: 992px) {
+     .informacion-concierto h1 {
+          font-size: 4rem;
+          line-height: unset;
+     }
+}
+
+.informacion-concierto h1 span,
+.informacion-concierto p {
+     font-weight: 700;
+     -webkit-box-shadow: 0px 6px 32px -5px rgba(0,0,0,0.74);
+     -moz-box-shadow: 0px 6px 32px -5px rgba(0,0,0,0.74);
+     box-shadow: 0px 6px 32px -5px rgba(0,0,0,0.74);   
+}
+
+.informacion-concierto p {
+     font-size: 2rem;
+}
+
+.informacion-concierto .text-dark,
+.sobre-festival .text-dark {
+     color: #f53756!important;
+     font-weight: 700;
+}
+
+/* sobre concierto */ 
+
+.separador::after {
+     content: '';
+     display: block;
+     height: 120px;
+     width: 300px;
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: 120px;
+     margin: 0 auto;
+}
+
+.rock::after {
+     background-image: url(../img/guitarra.png);
+}
+
+.dj::after {
+     background-image: url(../img/dj.png);
+}
+
+.horario.bg-warning li:nth-child(2n+2) {
+     background-color: #eae05b!important;
+}
+
+.horario.bg-success li:nth-child(2n+2) {
+     background-color: #3ca8a2!important;
+}
+
+/* fecha */
+
+.fecha {
+     font-size: 2.8rem;
+}
+
+.fecha span {
+     font-weight: 700;
+}
+
+.fecha span::before {
+     content: '-';
+}
+
+.fecha span:first-child::before {
+     display: none;
+}
+
+/* boletos */ 
+
+.boletos .precio {
+     font-size: 2rem;
+}
+
+.boletos .active {
+     background-color: #752f97!important;
+     border: none;
+}
+
+.list-group-item-success {
+     background-color: #4cb8b3!important;
+}
+
+/* nav */ 
+
+
+
+
+
+
